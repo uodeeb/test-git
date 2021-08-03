@@ -1,0 +1,134 @@
+@import url("header.css");
+* {
+    margin: auto 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+
+
+/*this is a CSS comment*/
+
+#header01 {
+    background-color: chartreuse;
+    height: 10vh;
+    display: flex;
+}
+
+#promo {
+    background-color: darkcyan;
+    height: 40vh;
+}
+
+#main__area {
+    height: 40vh;
+    background-color: darkkhaki;
+    /* position: relative; */
+    font-size: 20px;
+    display: flex;
+
+    justify-content:space-evenly;
+    /* align-items: center; */
+    gap: 1vw;
+
+
+}
+
+#foot {
+    height: 10vh;
+    background-color: darkgray;
+}
+
+ .box {
+    width: 18vw;
+    height: 40vh;
+ 
+
+}
+
+#test__position01 {
+    background-color: blueviolet;
+   /* position: relative;
+    top: 100px;
+      left: 50px; */
+    /* flex: 3;
+    order: 3; */
+    
+    flex:1;
+
+} 
+
+#test__position02 {
+    background-color:brown;
+    /* position: absolute;
+    top: 10px; */
+    /* flex: 3;
+    order: 1;
+    display: flex; */
+flex: 1;
+} 
+
+#test__position03 {
+    background-color:cadetblue;
+    /* width: 100vw;
+    position: fixed;
+    top: 80px;
+    display: flex; */
+    /* flex: 2;
+    order: 5; */
+    flex: 1;
+} 
+
+#test__position04{
+    background-color: blue;
+    flex: 1;
+    order: 3;
+}
+#test__position05{
+    background-color: blue;
+    flex: 1;
+    order: 4;
+}
+#test__position06{
+    background-color: blue;
+    flex: 1;
+    order: 6;
+}
+
+.list__item {
+    display: inline;
+    margin: 5px;
+} */
+
+
+
+#head {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+    border: 10px solid #000;
+
+
+}
+/* 
+#txt {
+    font-size: 40px;
+    color: #fff;
+    border: 1px dashed #000;
+    display: inline;
+} */
+
+.head__content{
+    height: 10vh;
+}
+#logo {
+    flex:2;
+    background-color: blue;
+}
+#nav {
+    flex:6;
+    background-color: chartreuse;
+}
+#search {
+    flex:2;
+    background-color: crimson;
+}
