@@ -1,13 +1,3 @@
-@import url("header.css");
-* {
-    margin: auto 0px;
-    padding: 0px;
-    font-size: 10px;
-}
-
-
-/*this is a CSS comment*/
-
 #header01 {
     background-color: chartreuse;
     height: 10vh;
