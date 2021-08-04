@@ -1,0 +1,126 @@
+/*------------------------small screen---------------------------*/
+@media only screen and (min-width: 360px) and (max-width:600px) {
+
+body {
+    background-color: crimson;
+}
+
+#container {
+    display: grid;
+    width: 100vw;
+    height: 230vh;
+    grid-template-rows: 30vh 50vh 120vh 30vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "hd"
+    "pro"
+    "ma"
+    "fo"
+    ;
+}
+
+#head {
+    background-color: darkkhaki;
+    grid-area:hd;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#promo {
+    background-color: darkmagenta;
+    grid-area: pro;
+    height: 50vh;
+    width: 100vw;
+    background-image: url("/images/file18_generated.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#main__area {
+    background-color:darkorange;
+    grid-area: ma;
+    height: 120vh;
+    width: 100vw;
+}
+
+#foot {
+    background-color:#28262c;
+    grid-area: fo;
+    height: 30vh;
+    width: 100vw;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*______________________________header styles_________________________*/
+#logo {
+    background-color:deepskyblue;
+    height: calc(30vh/3);
+    width: 100vw;
+    text-align: center;
+    background-image: url("/images/mobilerro-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#nav {
+    background-color:dimgray;
+    height: calc(30vh/3);
+    width: 100vw;
+}
+#srch {
+    background-color:#65479D;
+    height:calc(30vh/3);
+    width: 100vw;
+}
+
+#logo__img {
+    width: 40vw;
+    height: 12vh;
+}
+
+#srch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#srch__sym {
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+}
+#srch__input{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    
+}
+
+#srch__bar {
+    width: 50vw;
+    height: 5vh;
+    border-radius: 1vh ;
+}
+
+.fa-search {
+    font-size: 25pt;
+}
+
+#nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#nav__list > li {
+    list-style: none;
+}
+
+}

@@ -1,0 +1,53 @@
+/*------------------------large screen---------------------------*/
+@media only screen and (min-width: 901px) {
+
+    body {
+        background-color:darkkhaki;
+    }
+    
+    #container {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-rows: 10vh 40vh 40vh 10vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "hd hd hd"
+        "pro pro pro"
+        "ma ma ma"
+        "fo fo fo"
+        ;
+    }
+    
+    #head {
+        background-color: darkkhaki;
+        grid-area:hd;
+        height: 10vh;
+        width: 100vw;
+    }
+    
+    #promo {
+        background-color: darkmagenta;
+        grid-area: pro;
+        height: 40vh;
+        width: 100vw;
+    
+    }
+    
+    #main__area {
+        background-color:darkorange;
+        grid-area: ma;
+        height: 40vh;
+        width: 100vw;
+    }
+    
+    #foot {
+        background-color:darksalmon;
+        grid-area: fo;
+        height: 10vh;
+        width: 100vw;
+    }
+    
+    
+    
+    }
