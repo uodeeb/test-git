@@ -1,5 +1,5 @@
 @import url("header.css");
-@import url("flex.css");
+/* @import url("flex.css"); */
 @import url("grid.css");
 * {
     margin: auto 0px;

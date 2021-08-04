@@ -1,0 +1,131 @@
+/*___________________________________main grid container________________________*/
+#container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 10vh 40vh 40vh 10vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "hd hd hd"
+    "pro pro pro"
+    "ma ma ma"
+    "fo fo fo";
+}
+
+
+#header01 {
+    background-color: chartreuse;
+    height: 10vh;
+    grid-area:hd;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: 
+    "logo logo nav nav nav nav srch srch";
+
+}
+
+#promo {
+    background-color: darkcyan;
+    height: 40vh;
+    grid-area: pro;
+}
+
+#main__area {
+    height: 40vh;
+    background-color: darkkhaki;
+    font-size: 20px;
+    grid-area: ma;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "bx01 bx02 bx03";
+
+}
+
+#foot {
+    height: 10vh;
+    background-color: darkgray;
+   grid-area: fo; 
+}
+/*___________________________________header grid container________________________*/
+
+#logo {
+    background-color:aqua;
+    grid-area: logo;    
+}
+
+#nav {
+    background-color:chocolate;
+    grid-area: nav;
+}
+
+#search {
+    background-color:cornflowerblue;
+    grid-area:srch;
+}
+ 
+/*___________________________________main area grid container________________________*/
+
+
+
+.box {
+    width: calc(100vw/3);
+    height: 40vh;3
+}
+
+#test__position01 {
+    background-color: blueviolet;
+    grid-area:bx01 ;
+
+} 
+
+#test__position02 {
+    background-color:brown;
+    grid-area:bx02;
+} 
+
+#test__position03 {
+    background-color:cadetblue;
+    grid-area: bx03;
+} 
+
+#test__position04{
+    background-color: blue;
+
+}
+#test__position05{
+    background-color: blue;
+
+}
+#test__position06{
+    background-color: blue;
+
+}
+
+.list__item {
+    display: inline;
+    margin: 5px;
+} 
+
+
+
+#head {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+    border: 10px solid #000;
+
+
+}
+/* 
+#txt {
+    font-size: 40px;
+    color: #fff;
+    border: 1px dashed #000;
+    display: inline;
+} */
+
+.head__content{
+    height: 10vh;
+}
